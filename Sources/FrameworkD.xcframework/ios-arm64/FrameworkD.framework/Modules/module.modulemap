@@ -1,0 +1,11 @@
+framework module FrameworkD {
+  umbrella header "FrameworkD.h"
+
+  export *
+  module * { export * }
+}
+
+module FrameworkD.Swift {
+    header "FrameworkD-Swift.h"
+    requires objc
+}

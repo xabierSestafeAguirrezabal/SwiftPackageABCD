@@ -1,0 +1,18 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FrameworkD
+import Foundation
+import FrameworkA
+import FrameworkB
+import FrameworkC
+@_exported import FrameworkD
+import Swift
+import _Concurrency
+public class FrameworkD {
+  public init()
+  public func callToFrameworkBToFrameworkA()
+  public func callToFrameworkB()
+  public func callToFrameworkC()
+  public func callToFrameworkD()
+  @objc deinit
+}

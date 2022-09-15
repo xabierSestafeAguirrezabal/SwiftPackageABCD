@@ -21,11 +21,11 @@ let package = Package(
         .binaryTarget(
             name: "FrameworkA",
             url: "https://nexus6.kydom.net/repository/XCFrameworks/FrameworkA/FrameworkA.xcframework.zip",
-            checksum: "d72e8cd9ee2960d5ebb928f6d8eb6753f43fdb2cf9491761d872f5942745c568"),
+            checksum: "c9df1e9165793d01bdaed59662ce19d559f675e60879e4cfbecf4d7fc8123b9f"),
         .binaryTarget(
             name: "FrameworkB",
             url: "https://nexus6.kydom.net/repository/XCFrameworks/FrameworkB/FrameworkB.xcframework.zip",
-            checksum: "881042155850c0b753b93c62709f9cc360c606b403b4138017023bbb1605c976"),
+            checksum: "c6e4abab727edb963f146257e74130a83dee02c771b0e5f3af4c31234e82c3a4"),
         .binaryTarget(
             name: "FrameworkC",
             url: "https://nexus6.kydom.net/repository/XCFrameworks/FrameworkC/FrameworkC.xcframework.zip",
